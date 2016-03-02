@@ -1,0 +1,18 @@
+{
+  "api": {
+    "port": 5678,
+    "host": "localhost",
+    "modulesPath": "dist/api/modules/",
+    "modules": {
+      "user": {
+        "router": {
+        }
+      },
+      "order": {
+        "router": {
+          "route": "dings"
+        }
+      }
+    }
+  }
+}

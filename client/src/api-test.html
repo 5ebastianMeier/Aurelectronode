@@ -1,0 +1,15 @@
+<template>
+  <require from="blur-image"></require>
+
+  <section class="au-animate">
+    <h2>${heading}</h2>
+    <div class="row au-stagger">
+      <div class="col-sm-6 col-md-3 card-container au-animate">
+        <div class="card">
+          <canvas class="header-bg" width="250" height="70" blur-image.bind="image"></canvas>
+            <p class="name">${message}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>

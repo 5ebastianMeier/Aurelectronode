@@ -3,6 +3,7 @@
 ## overview
 
 This project attempts to provide a client/server skeleton.
+
 The client provides an Aurelia skeleton that can optionally be run inside
 Electron.
 
@@ -20,3 +21,13 @@ modules to the API by naming convention.
 ### server
 * npm install
 * npm start
+
+## client
+
+tbd
+
+## server
+
+### module registration
+
+tbd

@@ -1,5 +1,14 @@
 # Aurelectronode
 
+## overview
+
+This project attempts to provide a client/server skeleton.
+The client provides an Aurelia skeleton that can optionally be run inside
+Electron.
+
+The server hosts an Express API that automagically registers and instantiates
+modules to the API by naming convention.
+
 ## install
 
 ### client
